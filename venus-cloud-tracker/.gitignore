@@ -1,0 +1,24 @@
+# Local Data Directories (Ignore heavy files, keep folder structure)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Python Caches & Compiled Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment & IDE Settings
+.vscode/
+venv/
+env/
+.env
+
+# MacOS / OS Artifacts
+.DS_Store
