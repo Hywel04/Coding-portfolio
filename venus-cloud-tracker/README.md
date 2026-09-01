@@ -42,7 +42,7 @@ source venv/bin/activate  # On Windows PowerShell use: .\venv\Scripts\Activate.p
 pip install -r requirements.txt
 ```
 
-## Quick Start
+## Usage
 
 ### Running the Full Batch Pipeline (CLI)
 
@@ -54,7 +54,7 @@ python main.py
 
 Output logs and visual maps will be exported automatically into `data/processed/`.
 
-### Running the Interactive Showcase
+### Demo Notebook
 
 To explore the step-by-step algorithms using an automated verified frame pair scanner, open the demo notebook after running the batch pipeline or otherwise placing NetCDF files in `data/raw/`:
 
@@ -63,7 +63,7 @@ pip install jupyter
 jupyter notebook notebooks/demo.ipynb
 ```
 
-## Project Architecture
+## Project Structure
 
 ```text
 venus-cloud-tracker/
