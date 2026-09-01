@@ -1,0 +1,4 @@
+#Required packages to run the notebook
+numpy
+matplotlib
+numba

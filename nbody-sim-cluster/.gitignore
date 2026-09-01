@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated simulation output
+data/processed/**
+data/raw/**
+!data/processed/**/
+!data/raw/**/
+!data/processed/**/.gitkeep
+!data/raw/**/.gitkeep
