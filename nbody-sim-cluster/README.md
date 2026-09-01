@@ -30,8 +30,8 @@ A Python N-body simulator built as part of a 3rd year project for stellar cluste
 ### Clone the Repository
 
 ```
-git clone https://github.com/<your-username>/nbody-sim-cluster.git
-cd nbody-sim-cluster
+git clone https://github.com/Hywel04/Coding-portfolio.git
+cd Coding-portfolio/nbody-sim-cluster
 ```
 
 A fresh clone starts with empty `data/` folders; run `python main.py` or the demo notebook once to generate simulation output locally.
