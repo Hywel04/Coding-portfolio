@@ -43,11 +43,13 @@ On macOS or Linux, activate the environment with `source .venv/bin/activate`.
 
 ### Install Dependencies
 
-Install the package in editable mode so changes to the source are available immediately:
+Install the project dependencies from the requirements file:
 
 ```powershell
-python -m pip install -e .
+pip install -r requirements.txt
 ```
+
+For editable package installation during development, use `python -m pip install -e .` instead.
 
 ## Usage
 
