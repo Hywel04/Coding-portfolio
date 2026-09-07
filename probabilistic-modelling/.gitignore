@@ -1,0 +1,4 @@
+# Local Python environments and notebook checkpoints.
+.venv/
+__pycache__/
+.ipynb_checkpoints/
